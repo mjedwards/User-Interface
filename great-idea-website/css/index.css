@@ -64,3 +64,96 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+div.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+header {
+	margin: 15px auto;
+	padding-bottom: 100px;
+}
+
+nav {
+	display: inline-block;
+	vertical-align: -webkit-baseline-middle;
+}
+
+nav a {
+	text-decoration: none;
+    color: grey;
+    margin: 0px 50px;
+}
+
+header img.logo {
+	float: right;
+}
+
+section.section-cta div {
+	width: 30%;
+	display: inline-block;
+	text-align: center;
+	margin-left: 90px;
+}
+
+section div h1 {
+	font-size: 115px
+}
+
+.section-cta img {
+	display: inline-block;
+	margin-left: 300px;
+	margin-bottom: 10px;
+}
+
+button {
+	width: 65%;
+    border: 1px solid black;
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+.section-cta {
+	/* border-bottom: 1px solid; */
+	margin-bottom: 60px;
+}
+
+/* section.main-content div {
+	width: 25%;
+	display: inline-block;
+	text-align: left;
+	margin-left: 0;
+} */
+
+/* section.main-content h3, section p  {
+	display: table-cell;
+}
+
+section p {
+	display: table-row;
+} */
+
+section.main-content div {
+	display: table-cell;
+    padding: 50px 0px;
+	padding-right: 100px;
+}
+
+
+section.main-content img {
+	width: 100%;
+}
+
+footer {
+	margin-top: 50px;
+}
+
+footer address a {
+	display: block;
+	padding-top: 15px;
+}
+
+footer p {
+	text-align: center;
+    padding: 100px;
+}
